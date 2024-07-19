@@ -36,7 +36,9 @@ function App() {
         ): (
           <>
             <img src={simpimg} alt="lossimpsom" className='img-home'/>
+            <div>
             <button className='btn' onClick={getCharacters}> Buscar personajes</button>
+            </div>
           </>
         )}
       </header>
